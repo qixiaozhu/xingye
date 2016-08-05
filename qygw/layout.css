@@ -544,7 +544,7 @@ body:not(.template-slider) #Header { min-height: 250px;}
 		.header-fixed #Top_bar { position:fixed; width:100%; left:0; top: 0 !important; height:60px; z-index:701; background:#fff; opacity:.97; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);}
 		.header-fixed.admin-bar #Top_bar { top: 32px !important;}
 		
-		.header-fixed.ab-show #Top_bar { top: 31px !important;}
+		.header-fixed.ab-show #Top_bar { /*top: 31px !important;*/}
 		.header-fixed.admin-bar.ab-show #Top_bar { top: 63px !important;}
 		
 		.header-fixed #Top_bar .top_bar_left,
@@ -1573,7 +1573,7 @@ body:not(.template-slider) #Header { min-height: 250px;}
 ================================================== */
 #Footer { background-position: center top; background-repeat:no-repeat; position:relative;}
 
-	#Footer .footer_action { background: rgba(0,0,0,.1); }
+	#Footer .footer_action { background-color: #888;border-bottom: 1px solid #727272; }/*改*/
 	#Footer .footer_action .one { margin-bottom: 30px; padding-top: 30px; text-align: center; font-size: 110%; line-height: 180%; }
 	
 	#Footer .widgets_wrapper { padding: 15px 0; }
